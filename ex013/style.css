@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+h1{
+    color:red;
+}
+h2{
+    color:darkturquoise;
+}
+#titulo1{
+    color:pink;
+}
+.subtitulo1{
+    color: orange;
+}
+    
+.subtitulo2{
+    color: blue;
+}
+.destaque1{
+    color: blueviolet;
+}
+.destaque2{
+    color: dodgerblue;
+}

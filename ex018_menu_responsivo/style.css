@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+#botao-menu{
+    display: none;
+}
+#menu{
+    margin-top: 10px;
+    display: flex;
+}
+label[for='botao-menu']{
+    cursor: pointer;
+    background-color: rgb(226, 9, 9);
+    font-size: 30px;
+    color: azure;
+    padding: 5px;
+    width: 40PX;
+    height: 40PX;
+    text-align: center;
+    align-items: center;
+    display: none;
+    margin-left: 80%;
+    position: fixed;
+}
+a{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgb(216, 5, 5);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+a:hover{
+    background-color: white;
+    outline: 1px solid red;
+    color: red;
+}
+@media(max-width:535px){
+    #menu{
+         /* transition: all 4s; Define os segundos e minutos. */
+        margin-left: -200%; /* Colocar as caixas em transição .*/
+        flex-direction: column;
+    }
+    label[for='botao-menu']{
+        display: block;
+    }
+    #botao-menu:checked ~ #menu{
+        margin-left: 0px;
+    }
+}

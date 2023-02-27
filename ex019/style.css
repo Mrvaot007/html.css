@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+#Box{
+    background-color: rgba(145, 11, 11, 0.993);
+    text-align: center;
+    padding: 50px;
+}
+
+*{
+    margin: 0;
+}
+
+#botao-menu{
+    display: none;
+}
+
+#menu{
+    background-color: rgb(255, 0, 0);
+    height: 30px;
+}
+
+label[for='botao-menu']{
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+    font-size: 30px;
+    color: white;
+    padding: 5px;
+    display: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+#conteiner{
+    display: flex;
+}
+#E{
+    text-align: left;
+    width: 45%;
+}
+#D{
+    text-align: left;
+    width: 100%;
+    margin-left: 10px;
+}
+a{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(255, 5, 5);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+a:hover{
+
+    background-color: white;
+    outline: 1px solid red;
+    color: red;
+}
+.img{
+    display: flex;
+    background-color: darkgrey;
+    color: black;
+    margin-bottom: 4px;
+    height: 100px;
+}
+.img1{
+    display: flex;
+    background-color: darkgrey;
+    color: black;
+    margin-bottom: 4px;
+    height: 50px;
+}
+.img2{
+    display: flex;
+    background-color: darkgrey;
+    color: black;
+    margin-bottom: 4px;
+    height: 50px;
+}
+.img3{
+    display: flex;
+    background-color: darkgrey;
+    color: black;
+    margin-bottom: 4px;
+    height: 50px;
+}
+.imgg{
+    display: flex;
+    background-color: darkgrey;
+    color: black;
+    margin-bottom: 4px;
+    height: 100px;
+}
+.imggg{
+    display: flex;
+    background-color: darkgrey;
+    color: black;
+    margin-bottom: 4px;
+    height: 100px;
+}
+footer{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    background-color: darkgray;
+    height: 80px;
+    color: black;
+    width: 400%;
+}
+
+@media(max-width:700px){
+    #menu{
+        margin-left: -200%; 
+        flex-direction: column;
+    }
+    label[for='botao-menu']{
+        display: block;
+    }
+    #botao-menu:checked ~ #menu{
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,32 @@
+@charset "UFT-8";
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Playfair+Display&display=swap');
+
+@font-face {
+    font-family:Carros;
+    src: url(../Fontes/Dopestyle.ttf); /*  */
+}
+
+:root{
+    --cor1:#000000;
+    --cor2:#843940;
+    --cor3:#56636C;
+}
+
+h1{
+    color: var(--cor2);
+    font-family:Carros ;
+}
+
+h1{
+    color:#6F0015;
+    background-image: radial-gradient(circle,red,black);
+    text-align: center;
+     
+}
+
+h2{
+    color:#270001;
+    background-image: radial-gradient(circle,black);
+    font-family: 'Playfair Display', serif;
+}

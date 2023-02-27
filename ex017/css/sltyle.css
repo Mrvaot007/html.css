@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+#flex-conteiner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(48, 46, 46);
+    height: 300px;
+}
+#flex-conteiner > div{
+    width: 60px;
+    height: 60px;
+    background-color: rgba(252, 4, 4, 0.911);
+    margin: 5px;
+    text-align: center;
+    color:black;
+    line-height: 60px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posições</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <p>Existem cinco valores de posições diferentes:</p>
+      <ul>
+          <li>Static</li>
+          <li>Relative</li>
+          <li>Fixed</li>
+          <li>Absolute</li>
+          <li>Stikey</li>
+      </ul>
+    <p>Os elementos são posicionados usando as propiedades top, bottom, left, right.</p>
+
+    <h2>Position 'static'</h2>
+    <p>Os elementos em html por padrão já são posicionados em static. Não são afetados pelas propiedades, top, left, rigth e bottom.</p>
+    <h3>Exemplo</h3>  
+    <div id="static"></div>
+
+    <h2>Position 'relative'</h2>
+    <p>São afetados pelas propiedades top, left, righr e bottom. <strong>O contéudo não vai se ajustar para se encaixar no espaço deixado pelo elemento</strong></p>
+    <h3>Exemplos</h3>
+    <div id="relative"></div>
+
+    <h2>Position Fixed</h2>
+    <p>O elemento é posicionado em relação a viwerport, ou seja, ele vai smepre permanecer no mesmo  lugar da página.</p>
+    <h3>Exemplo</h3>
+    <div id="fixed"></div>
+
+    <h2>Position Absolut</h2>
+    <p>O elemento é posicionado com relação ao seu ancestral mais próximo.</p>
+    <h3>Exemplo</h3>
+    <div id="pai">
+        <div id="filho">
+            SENAC-TO
+
+        </div>
+    </div>
+</body>
+</html>
