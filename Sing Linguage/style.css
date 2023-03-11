@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 40%;
+    height: 100vh;
+    position: relative;
+}
+article{
+    position: absolute;
+    left: 0;
+    width: 40%;
+    height: 100vh;
+    padding: 10px;
+}
